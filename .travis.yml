@@ -2,4 +2,4 @@ language: java
 jdk:
   - openjdk15
 script:
-  - ./gradlew clean install
+  - ./gradlew clean build
