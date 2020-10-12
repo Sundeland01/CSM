@@ -6,7 +6,7 @@ script:
 jobs:
   include:
     - stage: Test
-      name: Unit-tests
+      name: Unit-test
       script: ./gradlew test
 
 
