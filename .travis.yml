@@ -7,5 +7,6 @@ script:
  jobs:
   include:
     - stage: Test
+      name: Unit-test
       script: ./gradlew clean test 
   
